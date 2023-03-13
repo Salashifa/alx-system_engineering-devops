@@ -1,2 +1,2 @@
-#!/bin/bashl
-cut -b 1 | tr -d '\n' | uniq
+#!/bin/bash
+echo $(cut -c1 | tr -d " \n")
